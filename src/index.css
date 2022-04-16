@@ -1,13 +1,54 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(152, 179, 228);
+}
+.block {
+background-color: rgb(248, 231, 211);
+padding: 20px;
+text-align: center;
+}
+.blockTwo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+text-align: center;
+width: 80%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  width: 350px;
+  border-radius: 8px;
+}
+.basketIcon {
+  width: 80px;
+}
+.categoryButton:hover {
+  background-color: rgb(130, 102, 231);
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButtonSelected {
+  background-color: aquamarine;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.icon {
+  width: 20px;
+}
+p, h1, h2, button {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+button {
+  background-color: floralwhite;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
 }
